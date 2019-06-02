@@ -9,7 +9,7 @@
                 <div class="card-header">Commodities</div>
 
                 <div class="card-body">
-                    <table>
+                    <table class="table table-bordered">
                         <thead>
                             <tr>
                                 <th>Name</th>
@@ -22,8 +22,8 @@
                             @foreach($commodities as $row)
                             <tr>
                                 <td>{{ $row->name }}</td>
-                                <td>{{ $row->id_commodities_types }}</td>
-                                <td>{{ $row->id_units }}</td>
+                                <td>{{ $row->type }}</td>
+                                <td>{{ $row->unit }}</td>
                                 <td>
                                     <a href="/commodities/edit/{{ $row->id }}">Edit</a>
                                     |

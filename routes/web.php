@@ -18,9 +18,20 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
 Route::get('/commodities','CommoditiesController@index');
-Route::get('/commodities/prices','CommoditiesController@prices');
-Route::get('/commodities/types','CommoditiesController@types');
+Route::get('/commodities/add','CommoditiesController@add');
+Route::post('/commodities/save','CommoditiesController@save');
+Route::get('/commodities/edit/{id}','CommoditiesController@edit');
+Route::post('/commodities/update','CommoditiesController@update');
+Route::get('/commodities/delete/{id}','CommoditiesController@delete');
+
+Route::get('/prices','PricesController@index');
+
+Route::get('/types','TypesController@index');
+
 Route::get('/markets','MarketsController@index');
+
 Route::get('/traders','TradersController@index');
+
 Route::get('/units','UnitsController@index');

@@ -1,0 +1,4 @@
+[2019-06-02 13:09:50.384] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/opt/lampp/htdocs/berbageek-laravel/.vscode'
+[2019-06-02 13:09:52.199] [renderer1] [error] net::ERR_INTERNET_DISCONNECTED: {1}
+[2019-06-02 13:09:59.018] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2019-06-02 13:10:01.358] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
