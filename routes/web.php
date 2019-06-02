@@ -18,3 +18,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/commodities','CommoditiesController@index');
+Route::get('/commodities/prices','CommoditiesController@prices');
+Route::get('/commodities/types','CommoditiesController@types');
+Route::get('/markets','MarketsController@index');
+Route::get('/traders','TradersController@index');
+Route::get('/units','UnitsController@index');
