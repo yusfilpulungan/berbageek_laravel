@@ -66,3 +66,136 @@ Open repository: /opt/lampp/htdocs/berbageek-laravel
 > git show :resources/views/commodities/edit.blade.php
 > git ls-files --stage -- resources/views/commodities/
 > git show :resources/views/commodities/index.blade.php
+> git show :app/Http/Controllers/CommoditiesController.php
+> git show :routes/web.php
+> git show :app/Http/Controllers/CommoditiesController.php
+> git show :resources/views/auth/register.blade.php
+> git show :app/Http/Controllers/MarketsController.php
+> git show :app/Http/Controllers/UnitsController.php
+> git check-ignore -z --stdin
+> git show :resources/views/home.blade.php
+> git show :resources/views/welcome.blade.php
+> git show :app/Http/Controllers/UnitsController.php
+> git show :resources/views/welcome.blade.php
+> git show :app/Http/Controllers/UnitsController.php
+> git show :app/Http/Controllers/MarketsController.php
+> git show :app/Http/Controllers/PricesController.php
+> git show :app/Http/Controllers/TypesController.php
+> git show :app/Http/Controllers/PricesController.php
+> git show :app/Http/Controllers/MarketsController.php
+> git show :app/Http/Controllers/CommoditiesController.php
+> git show :app/Http/Controllers/UnitsController.php
+> git show :app/Http/Controllers/PricesController.php
+> git check-ignore -z --stdin
+> git show :resources/views/prices/index.blade.php
+> git show :resources/views/commodities/add.blade.php
+> git check-ignore -z --stdin
+> git show :resources/views/prices/add.blade.php
+> git ls-files --stage -- resources/views/prices/
+> git show :resources/views/prices/index.blade.php
+> git show :app/Http/Controllers/PricesController.php
+> git show :resources/views/commodities/add.blade.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :resources/views/units/index.blade.php
+> git show :app/Http/Controllers/UnitsController.php
+> git show :resources/views/commodities/add.blade.php
+> git show :app/Http/Controllers/UnitsController.php
+> git show :resources/views/units/add.blade.php
+> git ls-files --stage -- resources/views/units/
+> git show :resources/views/commodities/add.blade.php
+> git show :resources/views/units/add.blade.php
+> git ls-files --stage -- resources/views/units/
+> git show :resources/views/units/edit.blade.php
+> git ls-files --stage -- resources/views/units/
+> git show :resources/views/units/add.blade.php
+> git ls-files --stage -- resources/views/units/
+> git show :resources/views/units/edit.blade.php
+> git ls-files --stage -- resources/views/units/
+> git show :app/Http/Controllers/UnitsController.php
+> git show :app/Http/Controllers/MarketsController.php
+> git show :resources/views/units/add.blade.php
+> git ls-files --stage -- resources/views/units/
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :resources/views/markets/add.blade.php
+> git ls-files --stage -- resources/views/markets/
+> git show :resources/views/markets/index.blade.php
+> git show :resources/views/markets/edit.blade.php
+> git ls-files --stage -- resources/views/markets/
+> git show :app/Http/Controllers/MarketsController.php
+> git show :resources/views/markets/index.blade.php
+> git check-ignore -z --stdin
+> git show :resources/views/markets/add.blade.php
+> git ls-files --stage -- resources/views/markets/
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :database/migrations/2019_06_02_083318_add_name_to_traders.php
+> git ls-files --stage -- database/migrations/
+> git show :app/Http/Controllers/TradersController.php
+> git show :app/Http/Controllers/MarketsController.php
+> git show :app/Http/Controllers/TradersController.php
+> git show :resources/views/traders/index.blade.php
+> git show :app/Http/Controllers/TradersController.php
+> git show :app/Http/Controllers/MarketsController.php
+> git show :resources/views/markets/add.blade.php
+> git ls-files --stage -- resources/views/markets/
+> git check-ignore -z --stdin
+> git show :resources/views/traders/add.blade.php
+> git ls-files --stage -- resources/views/traders/
+> git show :resources/views/commodities/add.blade.php
+> git show :resources/views/traders/add.blade.php
+> git ls-files --stage -- resources/views/traders/
+> git show :app/Http/Controllers/TradersController.php
+> git show :resources/views/traders/add.blade.php
+> git ls-files --stage -- resources/views/traders/
+> git show :resources/views/traders/index.blade.php
+> git show :app/Http/Controllers/TradersController.php
+> git show :app/Http/Controllers/CommoditiesController.php
+> git show :app/Http/Controllers/TradersController.php
+> git show :app/Http/Controllers/CommoditiesController.php
+> git show :resources/views/traders/index.blade.php
+> git show :app/Http/Controllers/CommoditiesController.php
+> git show :app/Http/Controllers/TradersController.php
+> git show :resources/views/traders/edit.blade.php
+> git ls-files --stage -- resources/views/traders/
+> git show :resources/views/traders/add.blade.php
+> git ls-files --stage -- resources/views/traders/
+> git show :resources/views/commodities/edit.blade.php
+> git show :resources/views/traders/edit.blade.php
+> git ls-files --stage -- resources/views/traders/
+> git show :app/Http/Controllers/TradersController.php
+> git show :resources/views/commodities/edit.blade.php
+> git show :app/Http/Controllers/TradersController.php
+> git show :resources/views/traders/edit.blade.php
+> git ls-files --stage -- resources/views/traders/
+> git show :app/Http/Controllers/TradersController.php
+> git show :resources/views/traders/edit.blade.php
+> git ls-files --stage -- resources/views/traders/
+> git show :app/Http/Controllers/TradersController.php
+> git show :resources/views/traders/edit.blade.php
+> git ls-files --stage -- resources/views/traders/
+> git check-ignore -z --stdin
+> git show :resources/views/types/index.blade.php
+> git show :resources/views/units/add.blade.php
+> git ls-files --stage -- resources/views/units/
+> git check-ignore -z --stdin
+> git show :resources/views/types/add.blade.php
+> git ls-files --stage -- resources/views/types/
+> git show :resources/views/types/edit.blade.php
+> git ls-files --stage -- resources/views/types/
+> git show :resources/views/types/add.blade.php
+> git ls-files --stage -- resources/views/types/
+> git show :app/Http/Controllers/TypesController.php
+> git show :app/Http/Controllers/UnitsController.php
+> git show :app/Http/Controllers/TypesController.php
+> git show :resources/views/types/index.blade.php
+> git show :resources/views/types/edit.blade.php
+> git ls-files --stage -- resources/views/types/
+> git show :resources/views/prices/index.blade.php
+> git show :app/Http/Controllers/TradersController.php
+> git show :resources/views/prices/index.blade.php
+> git show :app/Http/Controllers/PricesController.php
+> git show :app/Http/Controllers/CommoditiesController.php
+> git show :app/Http/Controllers/PricesController.php
+> git show :app/Http/Controllers/CommoditiesController.php

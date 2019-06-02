@@ -40,6 +40,12 @@
                 top: 18px;
             }
 
+            .top-left {
+                position: absolute;
+                left: 10px;
+                top: 18px;
+            }
+
             .content {
                 text-align: center;
             }
@@ -65,6 +71,14 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
+            <div class="top-left links">
+                <a href="{{ url('/commodities') }}">Commodities</a>
+                <a href="{{ url('/prices') }}">Prices</a>
+                <a href="{{ url('/types') }}">Types</a>
+                <a href="{{ url('/markets') }}">Markets</a>
+                <a href="{{ url('/traders') }}">Traders</a>
+                <a href="{{ url('/units') }}">Units</a>
+            </div>
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth

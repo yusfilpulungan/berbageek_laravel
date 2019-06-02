@@ -9,9 +9,10 @@
                 <div class="card-header">Traders</div>
 
                 <div class="card-body">
-                    <table>
+                    <table class="table table-bordered">
                         <thead>
                             <tr>
+                                <th>Trader</th>
                                 <th>Market</th>
                                 <th></th>
                             </tr>
@@ -19,7 +20,8 @@
                         <tbody>
                             @foreach($traders as $row)
                             <tr>
-                                <td>{{ $row->id_market }}</td>
+                                <td>{{ $row->name }}</td>
+                                <td>{{ $row->markets }}</td>
                                 <td>
                                     <a href="/traders/edit/{{ $row->id }}">Edit</a>
                                     |

@@ -2,3 +2,9 @@
 [2019-06-02 13:09:52.199] [renderer1] [error] net::ERR_INTERNET_DISCONNECTED: {1}
 [2019-06-02 13:09:59.018] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
 [2019-06-02 13:10:01.358] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2019-06-02 15:24:48.422] [renderer1] [error] Model is disposed!: Error: Model is disposed!
+    at P._assertNotDisposed (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:1175:509)
+    at P.getVersionId (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:1180:300)
+    at e.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:4814:533)
+    at Generator.next (<anonymous>)
+    at r (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:454)

@@ -9,7 +9,7 @@
                 <div class="card-header">Units</div>
 
                 <div class="card-body">
-                    <table>
+                    <table class="table table-bordered">
                         <thead>
                             <tr>
                                 <th>Name</th>

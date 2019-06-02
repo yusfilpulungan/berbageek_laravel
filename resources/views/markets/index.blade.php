@@ -4,12 +4,12 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-                <a href="/commodities/add"> Add New Markets</a>
+                <a href="/markets/add"> Add New Markets</a>
             <div class="card">
                 <div class="card-header">Markets</div>
 
                 <div class="card-body">
-                    <table>
+                    <table class="table table-bordered">
                         <thead>
                             <tr>
                                 <th>Name</th>
@@ -21,9 +21,9 @@
                             <tr>
                                 <td>{{ $row->name }}</td>
                                 <td>
-                                    <a href="/commodities/edit/{{ $row->id }}">Edit</a>
+                                    <a href="/markets/edit/{{ $row->id }}">Edit</a>
                                     |
-                                    <a href="/commodities/delete/{{ $row->id }}">Delete</a>
+                                    <a href="/markets/delete/{{ $row->id }}">Delete</a>
                                 </td>
                             </tr>
                             @endforeach

@@ -4,12 +4,12 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-                <a href="/commodities/price_add"> Add New Prices</a>
+                <a href="/prices/add"> Add New Prices</a>
             <div class="card">
                 <div class="card-header">Prices</div>
 
                 <div class="card-body">
-                    <table>
+                    <table class="table table-bordered">
                         <thead>
                             <tr>
                                 <th>Name</th>
@@ -23,15 +23,15 @@
                         <tbody>
                             @foreach($prices as $row)
                             <tr>
-                                <td>{{ $row->id_commodities }}</td>
-                                <td>{{ $row->id_trader }}</td>
-                                <td>{{ $row->id_operator }}</td>
+                                <td>{{ $row->commodity }}</td>
+                                <td>{{ $row->trader }}</td>
+                                <td>{{ $row->operator }}</td>
                                 <td>{{ $row->date }}</td>
                                 <td>{{ $row->price }}</td>
                                 <td>
-                                    <a href="/commodities/price_edit/{{ $row->id }}">Edit</a>
+                                    <a href="/prices/edit/{{ $row->id }}">Edit</a>
                                     |
-                                    <a href="/commodities/price_delete/{{ $row->id }}">Delete</a>
+                                    <a href="/prices/delete/{{ $row->id }}">Delete</a>
                                 </td>
                             </tr>
                             @endforeach
