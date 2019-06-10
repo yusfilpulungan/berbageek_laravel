@@ -1,0 +1,2 @@
+[2019-06-10 08:38:45.717] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/opt/lampp/htdocs/berbageek-laravel/.vscode'
+[2019-06-10 08:38:56.824] [renderer1] [error] Error: [File Watcher (chokidar)] Inotify limit reached (ENOSPC)

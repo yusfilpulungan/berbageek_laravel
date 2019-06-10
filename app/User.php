@@ -36,4 +36,16 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public static function isRole($checkRole)
+    {
+        $checkRole = explode("|",$checkRole);
+        foreach($checkRole as $role){
+            $user_roles = self::where(['id'=>\Auth::id(), 'role'=>$role])->first();
+            if(!is_null($user_roles)){
+                $user_roles=TRUE;
+            }
+        }
+        return $user_roles ? true : false;
+    }
 }

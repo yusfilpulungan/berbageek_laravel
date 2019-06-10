@@ -7,6 +7,12 @@ use Illuminate\Support\Facades\DB;
 
 class MarketsController extends Controller
 {
+
+    public function __construct()
+    {
+        
+    }
+
     public function index()
     {
    	    $markets = DB::table('markets')->get();

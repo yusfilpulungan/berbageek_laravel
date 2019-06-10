@@ -83,3 +83,135 @@ Open repository: /opt/lampp/htdocs/berbageek-laravel
 > git show :resources/views/prices/index.blade.php
 > git show :resources/views/prices/edit.blade.php
 > git ls-files --stage -- resources/views/prices/
+> git show :resources/views/prices/add.blade.php
+> git show :app/Http/Controllers/TradersController.php
+> git show :app/Http/Controllers/HomeController.php
+> git show :app/Http/Middleware/Authenticate.php
+> git show :app/Http/Middleware/CheckForMaintenanceMode.php
+> git show :app/Http/Middleware/EncryptCookies.php
+> git show :app/Http/Middleware/RedirectIfAuthenticated.php
+> git show :app/Http/Middleware/TrustProxies.php
+> git show :app/Http/Middleware/VerifyCsrfToken.php
+> git show :app/Http/Controllers/Auth/LoginController.php
+> git show :app/Http/Middleware/Authenticate.php
+> git show :app/Http/Controllers/Auth/LoginController.php
+> git show :app/Http/Controllers/Auth/RegisterController.php
+> git check-ignore -z --stdin
+> git show :app/Exceptions/Handler.php
+> git show :app/Http/Controllers/CommoditiesController.php
+> git show :app/Http/Controllers/Controller.php
+> git show :app/Http/Controllers/MarketsController.php
+> git show :app/Http/Controllers/HomeController.php
+> git show :app/Http/Controllers/MarketsController.php
+> git show :app/Http/Controllers/PricesController.php
+> git show :app/Http/Controllers/MarketsController.php
+> git show :app/Providers/AuthServiceProvider.php
+> git show :app/Providers/AppServiceProvider.php
+> git show :app/Providers/BroadcastServiceProvider.php
+> git show :app/Providers/EventServiceProvider.php
+> git show :app/Providers/RouteServiceProvider.php
+> git show :app/User.php
+> git show :app/Http/Controllers/MarketsController.php
+> git show :app/Http/Kernel.php
+> git show :app/Http/Controllers/MarketsController.php
+> git check-ignore -z --stdin
+> git show :app/Role.php
+> git ls-files --stage -- app/
+> git check-ignore -z --stdin
+> git show :app/Http/Middleware/Role.php
+> git ls-files --stage -- app/Http/Middleware/
+> git check-ignore -z --stdin
+> git show :routes/web.php
+> git check-ignore -z --stdin
+> git show :app/Http/Kernel.php
+> git show :app/Http/Middleware/Role.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :app/Role.php
+> git ls-files --stage -- app/
+> git show :app/Http/Kernel.php
+> git show :app/Http/Middleware/Authenticate.php
+> git show :app/Role.php
+> git ls-files --stage -- app/
+> git show :app/Http/Middleware/Role.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :app/Role.php
+> git ls-files --stage -- app/
+> git show :app/Http/Kernel.php
+> git show :app/Http/Middleware/Authenticate.php
+> git show :routes/web.php
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git check-ignore -z --stdin
+> git show :database/migrations/2019_06_02_224736_create_roles_table.php
+> git ls-files --stage -- database/migrations/
+> git show :app/Role.php
+> git ls-files --stage -- app/
+> git show :app/Http/Middleware/Role.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :routes/web.php
+> git show :app/Role.php
+> git ls-files --stage -- app/
+> git show :app/User.php
+> git show :app/Role.php
+> git ls-files --stage -- app/
+> git show :app/User.php
+> git show :app/Http/Middleware/Role.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :app/Http/Middleware/Authenticate.php
+> git show :app/Http/Middleware/Role.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :app/User.php
+> git show :app/Http/Middleware/Role.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :app/Http/Middleware/Authenticate.php
+> git show :routes/web.php
+> git show :app/Http/Middleware/Role.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :app/Http/Middleware/Authenticate.php
+> git show :app/Http/Middleware/Role.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :app/Http/Middleware/Authenticate.php
+> git show :app/Http/Middleware/Role.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :app/Http/Middleware/Authenticate.php
+> git show :app/Http/Middleware/Role.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :app/User.php
+> git show :app/Role.php
+> git ls-files --stage -- app/
+> git show :app/Http/Middleware/Role.php
+> git ls-files --stage -- app/Http/Middleware/
+> git check-ignore -z --stdin
+> git show :app/Http/Middleware/User.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :app/Http/Middleware/Role.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :app/Http/Middleware/User.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :app/Http/Controllers/MarketsController.php
+> git show :app/Http/Middleware/User.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :routes/web.php
+> git show :app/Http/Kernel.php
+> git show :app/Http/Middleware/User.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :app/User.php
+> git show :routes/web.php
+> git show :app/Http/Kernel.php
+> git show :database/migrations/2019_06_02_224736_create_roles_table.php
+> git ls-files --stage -- database/migrations/
+> git show :database/migrations/2019_06_01_111147_add_role_to_users_table.php
+> git show :resources/views/auth/register.blade.php
+> git show :routes/web.php
+> git show :app/User.php
+> git show :app/Role.php
+> git ls-files --stage -- app/
+> git show :routes/web.php
+> git show :app/Http/Middleware/Role.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :routes/web.php
+> git check-ignore -z --stdin
+> git show :app/Http/Middleware/User.php
+> git ls-files --stage -- app/Http/Middleware/
+> git show :app/User.php
+> git show :routes/web.php

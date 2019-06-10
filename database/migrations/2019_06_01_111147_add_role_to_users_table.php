@@ -14,7 +14,7 @@ class AddRoleToUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function (Blueprint $table) {
-            $table->string('role')->nullable()->after('email');
+            $table->enum('role', ['admin', 'operator'])->after('email');
         });
     }
 
