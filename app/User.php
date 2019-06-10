@@ -43,7 +43,7 @@ class User extends Authenticatable
         foreach($checkRole as $role){
             $user_roles = self::where(['id'=>\Auth::id(), 'role'=>$role])->first();
             if(!is_null($user_roles)){
-                $user_roles=TRUE;
+                return $user_roles ? true : false;
             }
         }
         return $user_roles ? true : false;

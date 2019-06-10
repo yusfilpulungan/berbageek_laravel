@@ -3,6 +3,7 @@
 namespace App\Http\Middleware;
 
 use Closure;
+use Auth;
 
 class User
 {
@@ -15,6 +16,11 @@ class User
      */
     public function handle($request, Closure $next, $role)
     {
+        if(Auth::guest())
+        {
+            return redirect('login');
+        }
+
         if(\App\User::isRole($role)){
             return $next($request);
         }
