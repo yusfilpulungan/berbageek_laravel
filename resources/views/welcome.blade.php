@@ -72,23 +72,17 @@
     <body>
         <div class="flex-center position-ref full-height">
             <div class="top-left links">
-                <a href="{{ url('/commodities') }}">Commodities</a>
-                <a href="{{ url('/prices') }}">Prices</a>
-                <a href="{{ url('/types') }}">Types</a>
-                <a href="{{ url('/markets') }}">Markets</a>
-                <a href="{{ url('/traders') }}">Traders</a>
-                <a href="{{ url('/units') }}">Units</a>
             </div>
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <a href="{{ url('/home') }}">Backend</a>
                     @else
                         <a href="{{ route('login') }}">Login</a>
 
-                        @if (Route::has('register'))
+                        {{-- @if (Route::has('register'))
                             <a href="{{ route('register') }}">Register</a>
-                        @endif
+                        @endif --}}
                     @endauth
                 </div>
             @endif

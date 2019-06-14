@@ -19,12 +19,15 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/commodities','CommoditiesController@index')->middleware('user:admin');
-Route::get('/commodities/add','CommoditiesController@add')->middleware('user:admin');
-Route::post('/commodities/save','CommoditiesController@save')->middleware('user:admin');
-Route::get('/commodities/edit/{id}','CommoditiesController@edit')->middleware('user:admin');
-Route::post('/commodities/update','CommoditiesController@update')->middleware('user:admin');
-Route::get('/commodities/delete/{id}','CommoditiesController@delete')->middleware('user:admin');
+Route::middleware(['user:admin'])->group(function () {
+    Route::get('/commodities','CommoditiesController@index');
+    Route::get('/commodities/add','CommoditiesController@add');
+    Route::post('/commodities/save','CommoditiesController@save');
+    Route::get('/commodities/edit/{id}','CommoditiesController@edit');
+    Route::post('/commodities/update','CommoditiesController@update');
+    Route::get('/commodities/delete/{id}','CommoditiesController@delete');
+});
+
 
 Route::get('/prices','PricesController@index')->middleware('user:admin|operator');
 Route::get('/prices/add','PricesController@add');

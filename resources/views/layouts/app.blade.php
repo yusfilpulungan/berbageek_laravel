@@ -10,14 +10,17 @@
     <title>{{ config('app.name', 'Laravel') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/jquery-3.4.1.min.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.js') }}"></script>
+    <script src="{{ asset('js/bootstrap-datepicker.js') }}"></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/bootstrap-datepicker.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -33,7 +36,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                            <a class="nav-link" href="{{ url('/commodities') }}">Commodities</a>
+                            <a class="nav-link" href="{{ url('/prices') }}">Prices</a>
+                            <a class="nav-link" href="{{ url('/types') }}">Types</a>
+                            <a class="nav-link" href="{{ url('/markets') }}">Markets</a>
+                            <a class="nav-link" href="{{ url('/traders') }}">Traders</a>
+                            <a class="nav-link" href="{{ url('/units') }}">Units</a>
+                    
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -43,12 +52,17 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                             </li>
-                            @if (Route::has('register'))
+                            {{-- @if (Route::has('register'))
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
+                                </li>
+                            @endif --}}
+                        @else
+                            @if (Route::has('register') AND Auth::user()->role=="admin")
                                 <li class="nav-item">
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                                 </li>
                             @endif
-                        @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
@@ -76,5 +90,14 @@
             @yield('content')
         </main>
     </div>
+    <script type="text/javascript">
+        $(function(){
+         $("#date").datepicker({
+             format: 'yyyy-mm-dd',
+             autoclose: true,
+             todayHighlight: true,
+         });
+        });
+       </script>
 </body>
 </html>
